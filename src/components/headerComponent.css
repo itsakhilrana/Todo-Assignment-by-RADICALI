@@ -1,0 +1,34 @@
+
+.headerComponent{
+    margin-bottom: 30px;
+}
+.webTitle{
+    font-size: 25px;
+    letter-spacing: 0.6px;
+    font-weight: 700;
+    color: white;
+}
+
+.headerContainer ul{
+    background-color: blanchedalmond;
+    width: 140px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.headerContainer ul .link{
+    border-radius: 5px;
+    background-color: #273FAD;
+    text-decoration: none;
+ 
+    padding: 5px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8px;
+    color: white;
+}

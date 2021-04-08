@@ -1,0 +1,73 @@
+.taskScreen {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 5px;
+}
+table .headerRow {
+  background-color: white;
+}
+
+table .taskRow {
+  background-color: rgba(202, 192, 192, 0.973);
+}
+th,
+td {
+  padding: 10px;
+  width: 200px;
+}
+th {
+  text-align: left;
+  font-weight: 500;
+}
+td {
+  font-size: 12px;
+}
+
+.tableView {
+  padding: 50px;
+  background-color: rgb(255, 255, 255);
+}
+
+.tableView ul {
+  list-style: none;
+  display: flex;
+}
+
+.tableView ul li {
+  width: 200px;
+  padding: 10px;
+}
+
+.tableHeader {
+  background-color: #F9FAFC;
+  box-shadow: 1px 2px 5px 1px #cccccc;
+}
+.tableHeader li {
+  font-weight: 700;
+}
+
+
+
+.tableBody {
+  margin-top: 2px;
+  box-shadow: 1px 2px 5px 1px #cccccc;
+}
+
+.tableBody li button{
+  border-radius: 5px;
+    background-color: #273FAD;
+    border: 0;
+ 
+    padding: 5px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}

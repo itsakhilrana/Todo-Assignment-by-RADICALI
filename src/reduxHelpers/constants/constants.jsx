@@ -1,0 +1,6 @@
+
+export const ADD_TASK_SUCCESS = 'ADD_TASK'
+export const ADD_TASK_REQUEST = 'ADD_TASK_REQUEST'
+export const ADD_TASK_FAIL = 'ADD_TASK_FAIL'
+
+export const UPDATE_TASK_REQUEST = 'UPDATE_TASK_REQUEST'
